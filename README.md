@@ -52,6 +52,8 @@ SwiftUI 화면과 `AppState`가 사용자 상태를 관리하고, `DataServicePr
 - iOS 17 이상 Simulator 또는 실기기
 - Mermaid 이미지를 재생성할 경우 Node.js 20 이상
 
+Xcode 26에서는 MapKit의 자전거 길찾기를 사용하며, 해당 심볼이 없는 Xcode 16 빌드에서는 타슈 경로를 도보 길찾기로 안전하게 대체합니다.
+
 ### Xcode 실행
 
 ```bash

@@ -1963,14 +1963,24 @@ enum RouteTransportMode: String, CaseIterable, Identifiable {
     var transportType: MKDirectionsTransportType {
         switch self {
         case .walking: return .walking
-        case .tashu: return .cycling
+        case .tashu:
+#if compiler(>=6.2)
+            return .cycling
+#else
+            return .walking
+#endif
         }
     }
 
     var launchOption: String {
         switch self {
         case .walking: return MKLaunchOptionsDirectionsModeWalking
-        case .tashu: return MKLaunchOptionsDirectionsModeCycling
+        case .tashu:
+#if compiler(>=6.2)
+            return MKLaunchOptionsDirectionsModeCycling
+#else
+            return MKLaunchOptionsDirectionsModeWalking
+#endif
         }
     }
 
