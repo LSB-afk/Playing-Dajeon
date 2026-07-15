@@ -1,0 +1,79 @@
+erDiagram
+    STORE ||--o{ STORE_IMAGE : has
+    STORE ||--o{ MENU_ITEM : offers
+    STORE ||--o{ COURSE_STOP : included_in
+    COURSE ||--|{ COURSE_STOP : contains
+    USER ||--o{ SAVED_STORE : saves
+    USER ||--o{ SAVED_COURSE : saves
+    USER ||--o{ USER_VISIT : records
+    STORE ||--o{ USER_VISIT : receives
+    USER ||--o{ STAMP_RECORD : earns
+    USER ||--o{ BADGE_RECORD : earns
+
+    STORE {
+        string id PK
+        string name
+        string category
+        string district
+        string storyTitle
+        string description
+        string[] searchTags
+    }
+    COURSE {
+        string id PK
+        string title
+        string district
+        int durationMinutes
+        string theme
+    }
+    COURSE_STOP {
+        string id PK
+        string courseId FK
+        string storeId FK
+        int stopOrder
+        int stayMinutes
+    }
+    USER {
+        string id PK
+        string ageGroup
+        string[] themes
+    }
+    USER_VISIT {
+        string id PK
+        string userId FK
+        string storeId FK
+        datetime visitedAt
+        string verificationType
+    }
+    STORE_IMAGE {
+        string id PK
+        string storeId FK
+        string source
+        string caption
+    }
+    MENU_ITEM {
+        string id PK
+        string storeId FK
+        string name
+        string price
+    }
+    SAVED_STORE {
+        string id PK
+        string userId FK
+        string storeId FK
+    }
+    SAVED_COURSE {
+        string id PK
+        string userId FK
+        string courseId FK
+    }
+    STAMP_RECORD {
+        string id PK
+        string userId FK
+        string storeId FK
+    }
+    BADGE_RECORD {
+        string id PK
+        string userId FK
+        string badgeType
+    }

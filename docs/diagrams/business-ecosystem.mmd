@@ -1,0 +1,26 @@
+flowchart LR
+    subgraph PARTNERS["지역 파트너"]
+        direction TB
+        GOV["B2G · 지자체·관광기관<br/>공공정보 · 행사 · 캠페인"]
+        STORE["B2B · 소상공인<br/>사진 · 이야기 · 운영정보"]
+    end
+
+    APP["놀거많은대?전<br/>스토리 · 검색 · 코스 · 이동"]
+
+    subgraph IMPACT["사용과 지역 효과"]
+        direction TB
+        USER["B2C · 사용자<br/>탐색 시간 절감<br/>새로운 장소 발견"]
+        AREA["지역 상권<br/>방문 분산 · 체류시간<br/>로컬 콘텐츠 축적"]
+    end
+
+    GOV <-->|"공식 코스 · 집계 리포트"| APP
+    STORE <-->|"스토리 노출 · 유입 신호"| APP
+    APP <-->|"추천 · 저장 · 방문"| USER
+    APP -->|"주변 방문 흐름"| AREA
+
+    classDef center fill:#061B52,stroke:#061B52,color:#FFFFFF,stroke-width:3px;
+    classDef actor fill:#EAF1FF,stroke:#2E6BFF,color:#08192F,stroke-width:2px;
+    classDef impact fill:#EEFFF5,stroke:#18A96B,color:#08192F,stroke-width:2px;
+    class APP center;
+    class USER,STORE,GOV actor;
+    class AREA impact;

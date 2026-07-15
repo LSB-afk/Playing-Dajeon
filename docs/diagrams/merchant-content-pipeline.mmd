@@ -1,0 +1,14 @@
+flowchart LR
+    OWNER["점주 제공 자료<br/>사진 · 창업 배경 · 공간 철학"] --> CONSENT["약 20분 인터뷰<br/>활용 범위 안내 · 동의"]
+    CONSENT --> STRUCTURE["콘텐츠 구조화<br/>소개 · 태그 · 서비스 · 방문 팁"]
+    STRUCTURE --> REVIEW["점주 최종 확인<br/>문구 · 이미지 · 운영 정보"]
+    REVIEW --> DETAIL["스토리 상세페이지<br/>검색 가능한 로컬 콘텐츠"]
+    DETAIL --> COURSE["주변 가게와 연결<br/>테마 코스 편입"]
+    COURSE --> SIGNAL["조회 · 저장 · 코스 시작<br/>집계 기반 효과 확인"]
+
+    classDef source fill:#FFF4E8,stroke:#E77B2D,color:#39210E,stroke-width:2px;
+    classDef process fill:#EAF1FF,stroke:#2E6BFF,color:#08192F,stroke-width:2px;
+    classDef outcome fill:#EEFFF5,stroke:#18A96B,color:#08192F,stroke-width:2px;
+    class OWNER source;
+    class CONSENT,STRUCTURE,REVIEW process;
+    class DETAIL,COURSE,SIGNAL outcome;

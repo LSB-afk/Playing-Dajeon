@@ -1,0 +1,26 @@
+name: iOS Build
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  build:
+    runs-on: macos-15
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Build simulator app
+        run: |
+          set -o pipefail
+          xcodebuild \
+            -project NolgoManyDJ.xcodeproj \
+            -scheme NolgoManyDJ \
+            -configuration Debug \
+            -destination 'generic/platform=iOS Simulator' \
+            CODE_SIGNING_ALLOWED=NO \
+            build

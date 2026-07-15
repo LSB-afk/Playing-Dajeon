@@ -1,0 +1,15 @@
+flowchart LR
+    NEED["오늘 대전에서<br/>뭐 하지?"] --> DISCOVER["검색 · 카테고리<br/>상황에 맞는 장소 탐색"]
+    DISCOVER --> STORY["가게 이야기와<br/>방문 이유 확인"]
+    STORY --> COURSE["주변 장소가 묶인<br/>테마 코스 선택"]
+    COURSE --> ROUTE["도보 · 타슈<br/>ETA 기반 이동"]
+    ROUTE --> VISIT["골목 가게 방문<br/>체류 경험"]
+    VISIT --> RECORD["저장 · 공유 · 스탬프<br/>다음 탐방으로 연결"]
+    RECORD --> DISCOVER
+
+    classDef start fill:#061B52,stroke:#061B52,color:#FFFFFF,stroke-width:2px;
+    classDef step fill:#F7FBFF,stroke:#2E6BFF,color:#08192F,stroke-width:2px;
+    classDef impact fill:#EEFFF5,stroke:#18A96B,color:#08192F,stroke-width:2px;
+    class NEED start;
+    class DISCOVER,STORY,COURSE,ROUTE step;
+    class VISIT,RECORD impact;

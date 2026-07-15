@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B79228ECD391DFCE0B91BA35 /* NolgoManyDJApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F591D52C84D2C1D6392CDE48 /* NolgoManyDJApp.swift */; };
+		D69F2FE263FAF652D1E19851 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D5F62FE67B92627C699DA6 /* MockData.swift */; };
+		E08F6BE61FD2ED76710209E9 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D37AC584B9A0297C143D13 /* Course.swift */; };
+		87AF5E86DDE59F17AB1C69DB /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4054E2316AE3CECC65E6F0B8 /* Store.swift */; };
+		C4CC46F184154AB9AC792BDC /* UserModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E48C7E22B5775A4F6B043F9 /* UserModels.swift */; };
+		F4AD981485A4DADB7D144B7E /* OwnerAnalytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD49826982494146FEFE8695 /* OwnerAnalytics.swift */; };
+		D114B8C3A529A6013AB45A25 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724453FC5CEB2EBF19B67350 /* DataService.swift */; };
+		BA1275B2CB33A95E4347CF6D /* SupabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D476801DE27C382B7279F55A /* SupabaseService.swift */; };
+		F5043FEC2724365DE10B9524 /* KakaoImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05CBBC2F2DCF1485A9ABEC7 /* KakaoImageService.swift */; };
+		89496C302101C224B8B8129D /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C66D2F443E890CD3EC12CDA /* Theme.swift */; };
+		AFBADC0AF6D3306FF95A8DAD /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DE187D925E34F5ABC16CC9 /* AppState.swift */; };
+		1693EFF02AA7D35AF038F500 /* CommonComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FA22ADEFFC92698732868C /* CommonComponents.swift */; };
+		5D96368FB241AB31E16483B9 /* CourseCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E6AF2AB413F9B44CDDFB9E /* CourseCard.swift */; };
+		3037B55878B8AA455E11AAA8 /* StoreCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A367E2983CCD0D97FF547E /* StoreCard.swift */; };
+		F124D75F7E0A6C0F18FE210F /* CourseDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2208EABF504150922E995E59 /* CourseDetailView.swift */; };
+		51E19A1840C0F046294DA1EF /* CoursesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2237F9C507D3CCF7CDFC2BCF /* CoursesView.swift */; };
+		41A142CA51496EAA578C631F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775B1491FBC4D949326BBF28 /* HomeView.swift */; };
+		8D99BA95594421CE5427E742 /* MapExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2D70DA40FA7565282C3FE2 /* MapExploreView.swift */; };
+		6F32898411EFF635A0C739FF /* MyPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08CDE9501F2DD618F463A36 /* MyPageView.swift */; };
+		C3436D273397A778883F4EB4 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4451F5F38C39C7DDAD612D9 /* OnboardingView.swift */; };
+		0C09F57D0F6A32B4B773BC5D /* OwnerDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4C1AEF2ECD96694CEC7C65 /* OwnerDashboardView.swift */; };
+		F4C436FDCB939FD5ACD80F6A /* SavedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC26E17A52CE459B6F1FC541 /* SavedView.swift */; };
+		D4E1133E5F7F4453A88492CC /* StoreDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B507E1C950FE8CF3DB453AC /* StoreDetailView.swift */; };
+		99810209AD4FE3320BC122AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58F02208A1E6A99468703A4E /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F591D52C84D2C1D6392CDE48 /* NolgoManyDJApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NolgoManyDJApp.swift; sourceTree = "<group>"; };
+		C6D5F62FE67B92627C699DA6 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
+		55D37AC584B9A0297C143D13 /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		4054E2316AE3CECC65E6F0B8 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		9E48C7E22B5775A4F6B043F9 /* UserModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModels.swift; sourceTree = "<group>"; };
+		DD49826982494146FEFE8695 /* OwnerAnalytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwnerAnalytics.swift; sourceTree = "<group>"; };
+		724453FC5CEB2EBF19B67350 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		D476801DE27C382B7279F55A /* SupabaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupabaseService.swift; sourceTree = "<group>"; };
+		C05CBBC2F2DCF1485A9ABEC7 /* KakaoImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoImageService.swift; sourceTree = "<group>"; };
+		6C66D2F443E890CD3EC12CDA /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		80DE187D925E34F5ABC16CC9 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		B9FA22ADEFFC92698732868C /* CommonComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonComponents.swift; sourceTree = "<group>"; };
+		01E6AF2AB413F9B44CDDFB9E /* CourseCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseCard.swift; sourceTree = "<group>"; };
+		E0A367E2983CCD0D97FF547E /* StoreCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreCard.swift; sourceTree = "<group>"; };
+		2208EABF504150922E995E59 /* CourseDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetailView.swift; sourceTree = "<group>"; };
+		2237F9C507D3CCF7CDFC2BCF /* CoursesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesView.swift; sourceTree = "<group>"; };
+		775B1491FBC4D949326BBF28 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		8F2D70DA40FA7565282C3FE2 /* MapExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapExploreView.swift; sourceTree = "<group>"; };
+		C08CDE9501F2DD618F463A36 /* MyPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageView.swift; sourceTree = "<group>"; };
+		A4451F5F38C39C7DDAD612D9 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		0B4C1AEF2ECD96694CEC7C65 /* OwnerDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwnerDashboardView.swift; sourceTree = "<group>"; };
+		FC26E17A52CE459B6F1FC541 /* SavedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedView.swift; sourceTree = "<group>"; };
+		5B507E1C950FE8CF3DB453AC /* StoreDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreDetailView.swift; sourceTree = "<group>"; };
+		58F02208A1E6A99468703A4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71CCD365E3A654DA84DBA191 /* NolgoManyDJ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NolgoManyDJ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E07120471D7CAA46DCD94528 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D3FC6DB5D0827F168A73277 = {
+			isa = PBXGroup;
+			children = (
+				E4F9B9B828BD894C7208C99D /* NolgoManyDJ */,
+				1BADDC1D73C1A20F347483E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1BADDC1D73C1A20F347483E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71CCD365E3A654DA84DBA191 /* NolgoManyDJ.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4F9B9B828BD894C7208C99D /* NolgoManyDJ */ = {
+			isa = PBXGroup;
+			children = (
+				CE882751F8B3EE4485706ED4 /* App */,
+				E7651EE138212D3A5C27ABA0 /* Models */,
+				9CECDDFA5EF2AE0232F90708 /* Views */,
+				A28680D3E3CD8001077030DA /* ViewModels */,
+				B295F7D1F3A53E369290BC6A /* Services */,
+				986B65B6B72F9E02B0F29D74 /* Data */,
+				C19F110DF6D5286BB3F28A3A /* Utils */,
+				58F02208A1E6A99468703A4E /* Assets.xcassets */,
+			);
+			path = NolgoManyDJ;
+			sourceTree = "<group>";
+		};
+		9CECDDFA5EF2AE0232F90708 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				615826295301C4256DCBF7F5 /* Components */,
+				CCFE591E91225F03AE84726C /* Onboarding */,
+				FB7BAC54EB89846810A8CF93 /* Home */,
+				2129B92D12EDA5467A934F01 /* Map */,
+				7660F292CB5E046062F97CF7 /* Courses */,
+				D7E2E65D0FAA16171AFE26D7 /* Stores */,
+				09D06C7510225FE5D8E3BB52 /* Saved */,
+				AD81576166CA560857073F8F /* MyPage */,
+				5243B8CBA94C03AB5EA205DE /* Owner */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CE882751F8B3EE4485706ED4 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F591D52C84D2C1D6392CDE48 /* NolgoManyDJApp.swift */
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		E7651EE138212D3A5C27ABA0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				55D37AC584B9A0297C143D13 /* Course.swift */,
+				4054E2316AE3CECC65E6F0B8 /* Store.swift */,
+				9E48C7E22B5775A4F6B043F9 /* UserModels.swift */,
+				DD49826982494146FEFE8695 /* OwnerAnalytics.swift */
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A28680D3E3CD8001077030DA /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				80DE187D925E34F5ABC16CC9 /* AppState.swift */
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		B295F7D1F3A53E369290BC6A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				724453FC5CEB2EBF19B67350 /* DataService.swift */,
+				D476801DE27C382B7279F55A /* SupabaseService.swift */,
+				C05CBBC2F2DCF1485A9ABEC7 /* KakaoImageService.swift */
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		986B65B6B72F9E02B0F29D74 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				C6D5F62FE67B92627C699DA6 /* MockData.swift */
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		C19F110DF6D5286BB3F28A3A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				6C66D2F443E890CD3EC12CDA /* Theme.swift */
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		615826295301C4256DCBF7F5 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B9FA22ADEFFC92698732868C /* CommonComponents.swift */,
+				01E6AF2AB413F9B44CDDFB9E /* CourseCard.swift */,
+				E0A367E2983CCD0D97FF547E /* StoreCard.swift */
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		CCFE591E91225F03AE84726C /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				A4451F5F38C39C7DDAD612D9 /* OnboardingView.swift */
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		FB7BAC54EB89846810A8CF93 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				775B1491FBC4D949326BBF28 /* HomeView.swift */
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		2129B92D12EDA5467A934F01 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				8F2D70DA40FA7565282C3FE2 /* MapExploreView.swift */
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		7660F292CB5E046062F97CF7 /* Courses */ = {
+			isa = PBXGroup;
+			children = (
+				2208EABF504150922E995E59 /* CourseDetailView.swift */,
+				2237F9C507D3CCF7CDFC2BCF /* CoursesView.swift */
+			);
+			path = Courses;
+			sourceTree = "<group>";
+		};
+		D7E2E65D0FAA16171AFE26D7 /* Stores */ = {
+			isa = PBXGroup;
+			children = (
+				5B507E1C950FE8CF3DB453AC /* StoreDetailView.swift */
+			);
+			path = Stores;
+			sourceTree = "<group>";
+		};
+		09D06C7510225FE5D8E3BB52 /* Saved */ = {
+			isa = PBXGroup;
+			children = (
+				FC26E17A52CE459B6F1FC541 /* SavedView.swift */
+			);
+			path = Saved;
+			sourceTree = "<group>";
+		};
+		AD81576166CA560857073F8F /* MyPage */ = {
+			isa = PBXGroup;
+			children = (
+				C08CDE9501F2DD618F463A36 /* MyPageView.swift */
+			);
+			path = MyPage;
+			sourceTree = "<group>";
+		};
+		5243B8CBA94C03AB5EA205DE /* Owner */ = {
+			isa = PBXGroup;
+			children = (
+				0B4C1AEF2ECD96694CEC7C65 /* OwnerDashboardView.swift */
+			);
+			path = Owner;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42AEFBAE01D2DFD981F7DA7D /* NolgoManyDJ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4555FF564CDA3863A0A5B59 /* Build configuration list for PBXNativeTarget "NolgoManyDJ" */;
+			buildPhases = (
+				0998B95F2E75B94331298940 /* Sources */,
+				E07120471D7CAA46DCD94528 /* Frameworks */,
+				90D3309A3EDE29A4CEBB8E14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NolgoManyDJ;
+			productName = NolgoManyDJ;
+			productReference = 71CCD365E3A654DA84DBA191 /* NolgoManyDJ.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46F86FAA6BBF9AC94A7E4595 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					42AEFBAE01D2DFD981F7DA7D = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 229AFD403D5F98A92FDE08FA /* Build configuration list for PBXProject "NolgoManyDJ" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = ko;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				ko,
+				Base,
+			);
+			mainGroup = 8D3FC6DB5D0827F168A73277;
+			productRefGroup = 1BADDC1D73C1A20F347483E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42AEFBAE01D2DFD981F7DA7D /* NolgoManyDJ */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90D3309A3EDE29A4CEBB8E14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99810209AD4FE3320BC122AD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0998B95F2E75B94331298940 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B79228ECD391DFCE0B91BA35 /* NolgoManyDJApp.swift in Sources */,
+				D69F2FE263FAF652D1E19851 /* MockData.swift in Sources */,
+				E08F6BE61FD2ED76710209E9 /* Course.swift in Sources */,
+				87AF5E86DDE59F17AB1C69DB /* Store.swift in Sources */,
+				C4CC46F184154AB9AC792BDC /* UserModels.swift in Sources */,
+				F4AD981485A4DADB7D144B7E /* OwnerAnalytics.swift in Sources */,
+				D114B8C3A529A6013AB45A25 /* DataService.swift in Sources */,
+				BA1275B2CB33A95E4347CF6D /* SupabaseService.swift in Sources */,
+				F5043FEC2724365DE10B9524 /* KakaoImageService.swift in Sources */,
+				89496C302101C224B8B8129D /* Theme.swift in Sources */,
+				AFBADC0AF6D3306FF95A8DAD /* AppState.swift in Sources */,
+				1693EFF02AA7D35AF038F500 /* CommonComponents.swift in Sources */,
+				5D96368FB241AB31E16483B9 /* CourseCard.swift in Sources */,
+				3037B55878B8AA455E11AAA8 /* StoreCard.swift in Sources */,
+				F124D75F7E0A6C0F18FE210F /* CourseDetailView.swift in Sources */,
+				51E19A1840C0F046294DA1EF /* CoursesView.swift in Sources */,
+				41A142CA51496EAA578C631F /* HomeView.swift in Sources */,
+				8D99BA95594421CE5427E742 /* MapExploreView.swift in Sources */,
+				6F32898411EFF635A0C739FF /* MyPageView.swift in Sources */,
+				C3436D273397A778883F4EB4 /* OnboardingView.swift in Sources */,
+				0C09F57D0F6A32B4B773BC5D /* OwnerDashboardView.swift in Sources */,
+				F4C436FDCB939FD5ACD80F6A /* SavedView.swift in Sources */,
+				D4E1133E5F7F4453A88492CC /* StoreDetailView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		45A01F38788F18581D2D3A56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7095C01122B12E4BB4061D4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C424DBF796944789872A5962 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "놀거많은대?전";
+				INFOPLIST_KEY_KAKAO_REST_API_KEY = "$(KAKAO_REST_API_KEY)";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "현재 위치 기반으로 주변 가게를 찾아드려요";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				KAKAO_REST_API_KEY = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nolgomanydj.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7757C39349D56478DC25EEF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "놀거많은대?전";
+				INFOPLIST_KEY_KAKAO_REST_API_KEY = "$(KAKAO_REST_API_KEY)";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "현재 위치 기반으로 주변 가게를 찾아드려요";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				KAKAO_REST_API_KEY = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nolgomanydj.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		229AFD403D5F98A92FDE08FA /* Build configuration list for PBXProject "NolgoManyDJ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45A01F38788F18581D2D3A56 /* Debug */,
+				7095C01122B12E4BB4061D4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4555FF564CDA3863A0A5B59 /* Build configuration list for PBXNativeTarget "NolgoManyDJ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C424DBF796944789872A5962 /* Debug */,
+				7757C39349D56478DC25EEF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46F86FAA6BBF9AC94A7E4595 /* Project object */;
+}

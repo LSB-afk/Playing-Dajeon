@@ -1,0 +1,20 @@
+{
+  "themeVariables": {
+    "fontFamily": "Pretendard, Apple SD Gothic Neo, sans-serif",
+    "primaryColor": "#EAF1FF",
+    "primaryTextColor": "#08192F",
+    "primaryBorderColor": "#2E6BFF",
+    "lineColor": "#2E6BFF",
+    "secondaryColor": "#E9FBFE",
+    "tertiaryColor": "#EEFFF5",
+    "clusterBkg": "#F7FBFF",
+    "clusterBorder": "#B8CCFF",
+    "edgeLabelBackground": "#FFFFFF"
+  },
+  "flowchart": {
+    "curve": "basis",
+    "htmlLabels": true,
+    "nodeSpacing": 34,
+    "rankSpacing": 56
+  }
+}
